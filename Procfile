@@ -1,1 +1,1 @@
-reminder: python src/quickstart.py
+worker: python bot.py
