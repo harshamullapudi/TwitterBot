@@ -23,7 +23,7 @@ print("Follow users :", FOLLOW)
 
 # Change the hashtags by your choice
 
-for tweet in tweepy.Cursor(api.search, q = ('Artificial Intelligence or AI -filter:retweets'),lang='en').items(): 
+for tweet in tweepy.Cursor(api.search, q = ('Artificial Intelligence OR AI -filter:retweets'),lang='en').items(): 
 	try: 
 		print('\nTweet by: @' + tweet.user.screen_name) 
 
