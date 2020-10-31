@@ -43,7 +43,7 @@ for tweet in tweepy.Cursor(api.search, q = ('Artificial Intelligence OR AI -filt
 				print('Followed the user') 
 		
 		# Twitter bot sleep time settings in seconds. Use large delays so that you account will not banned
-		sleep(40)
+		sleep(30)
 
 	except tweepy.TweepError as e: 
 		print(e.reason) 
